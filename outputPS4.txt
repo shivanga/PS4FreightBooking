@@ -1,0 +1,92 @@
+--------Function showAll --------
+Total no. of freight trains: 5
+Total no. of cities: 8
+List of Freight trains: 
+T5623
+T2342
+T1122
+T1235
+T2341
+
+List of cities: 
+Vishakhapatnam
+New Delhi
+Chennai
+Mumbai
+Nagpur
+Calcutta
+Hyderabad
+Ahmedabad
+---------------------------------------
+
+
+--------Function displayTransportHub --------
+Main transport hub: New Delhi
+Number of trains visited: 3
+List of Freight trains:
+T1235
+T2342
+T2341
+-----------------------------------------
+
+
+--------Function displayConnectedCities --------
+Freight train number: T1122
+Number of cities connected: 3
+List of cities connected directly by T1122:
+Ahmedabad
+Nagpur
+Mumbai
+-----------------------------------------
+
+
+--------Function displayConnectedCities --------
+Freight train number: T1235
+Number of cities connected: 2
+List of cities connected directly by T1235:
+New Delhi
+Chennai
+-----------------------------------------
+
+
+--------Function displayConnectedCities --------
+Freight train number: T0007
+********     TRAIN NOT FOUND     ***** 
+-----------------------------------------
+
+
+--------Function displayDirectTrain --------
+City A: Calcutta
+City B: New Delhi
+Package can be sent directly: Yes, T2342
+-----------------------------------------
+
+
+--------Function displayDirectTrain --------
+City A: Chennai
+City B: Hyderabad
+Package can be sent directly: No, there is no direct train
+-----------------------------------------
+
+
+--------Function findServiceAvailable --------
+City A: Calcutta
+City B: Nagpur
+Can the package be sent: Yes, Calcutta > T2342 > New Delhi > T2341 > Ahmedabad > T1122 > Nagpur
+-----------------------------------------
+
+
+--------Function findServiceAvailable --------
+City A: Calcutta
+City B: Mumbai
+Can the package be sent: Yes, Calcutta > T2342 > New Delhi > T2341 > Ahmedabad > T1122 > Nagpur > T1122 > Mumbai
+-----------------------------------------
+
+
+--------Function findServiceAvailable --------
+City A: Nagpur
+City B: Vishakhapatnam
+Can the package be sent: No, there is no possible way
+-----------------------------------------
+
+
